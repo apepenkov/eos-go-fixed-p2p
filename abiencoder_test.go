@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/apepenkov/eos-go-fixed-p2p/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"

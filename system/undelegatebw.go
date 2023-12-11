@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/apepenkov/eos-go-fixed-p2p"
 )
 
 // NewUndelegateBW returns a `undelegatebw` action that lives on the

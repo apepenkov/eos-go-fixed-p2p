@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eoscanada/eos-go/eoserr"
+	"github.com/apepenkov/eos-go-fixed-p2p/eoserr"
 )
 
 // APIError represents the errors as reported by the server

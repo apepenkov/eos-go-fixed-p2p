@@ -1,8 +1,8 @@
 package system
 
 import (
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
+	eos "github.com/apepenkov/eos-go-fixed-p2p"
+	"github.com/apepenkov/eos-go-fixed-p2p/ecc"
 )
 
 // NewSetPriv returns a `setpriv` action that lives on the

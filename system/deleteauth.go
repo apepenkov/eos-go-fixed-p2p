@@ -1,6 +1,6 @@
 package system
 
-import "github.com/eoscanada/eos-go"
+import "github.com/apepenkov/eos-go-fixed-p2p"
 
 // NewDeleteAuth creates an action from the `eosio.system` contract
 // called `deleteauth`.

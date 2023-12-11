@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/apepenkov/eos-go-fixed-p2p"
+	"github.com/apepenkov/eos-go-fixed-p2p/ecc"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
@@ -273,10 +273,7 @@ func (p *Peer) SendHandshake(info *HandshakeInfo) error {
 
 	tstamp := eos.Tstamp{Time: info.HeadBlockTime}
 
-	signature := ecc.Signature{
-		Curve:   ecc.CurveK1,
-		Content: make([]byte, 65, 65),
-	}
+	signature := ecc.MustNewSignature("SIG_K1_111111111111111111111111111111111111111111111111111111111111111116uk5ne")
 
 	handshake := &eos.HandshakeMessage{
 		NetworkVersion:           1206,

@@ -1,6 +1,6 @@
 package token
 
-import eos "github.com/eoscanada/eos-go"
+import eos "github.com/apepenkov/eos-go-fixed-p2p"
 
 var AN = eos.AN
 var PN = eos.PN

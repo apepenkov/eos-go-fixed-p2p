@@ -1,4 +1,4 @@
-module github.com/eoscanada/eos-go
+module github.com/apepenkov/eos-go-fixed-p2p
 
 go 1.17
 

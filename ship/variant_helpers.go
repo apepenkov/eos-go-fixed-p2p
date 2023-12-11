@@ -1,7 +1,7 @@
 package ship
 
 import (
-	"github.com/eoscanada/eos-go"
+	"github.com/apepenkov/eos-go-fixed-p2p"
 )
 
 // Request

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/apepenkov/eos-go-fixed-p2p"
 )
 
 func ExampleAPI_GetProducers() {

@@ -1,7 +1,7 @@
 package rex
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/apepenkov/eos-go-fixed-p2p"
 )
 
 func NewDefundCPULoan(from eos.AccountName, loanNumber uint64, amount eos.Asset) *eos.Action {

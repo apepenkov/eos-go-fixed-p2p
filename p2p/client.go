@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/apepenkov/eos-go-fixed-p2p"
 	"go.uber.org/zap"
 )
 

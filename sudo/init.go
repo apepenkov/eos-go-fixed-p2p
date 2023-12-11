@@ -1,6 +1,6 @@
 package sudo
 
-import eos "github.com/eoscanada/eos-go"
+import eos "github.com/apepenkov/eos-go-fixed-p2p"
 
 func init() {
 	eos.RegisterAction(AN("eosio.wrap"), ActN("exec"), Exec{})

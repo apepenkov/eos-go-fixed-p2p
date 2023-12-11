@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/apepenkov/eos-go-fixed-p2p"
 )
 
 func Process(filename string) error {
